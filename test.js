@@ -13,7 +13,7 @@ document.body.innerHTML = `
     }
   </style>
   <div id="react-container"
-       style="margin: 50px auto;">
+       style="margin: 200px auto;">
   </div>
 `
 
