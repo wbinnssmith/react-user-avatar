@@ -2,6 +2,8 @@
 
 A bare-bones user avatar display with support for falling back to using the user's initials on a colored background as the avatar.
 
+![](https://cloud.githubusercontent.com/assets/755844/11612136/7dc28cae-9ba2-11e5-8c6e-999d5d524642.png)
+
 ## Installation
 
 `npm install -S react-user-avatar`
