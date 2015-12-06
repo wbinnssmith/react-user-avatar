@@ -1,6 +1,6 @@
 {
   "name": "react-user-avatar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component for a user avatar with fallback to colored initials",
   "main": "user-avatar.js",
   "style": "example.css",
@@ -8,7 +8,11 @@
     "build": "babel index.js -s -o user-avatar.js",
     "test": "budo test.js -- -t babelify"
   },
-  "keywords": ["react-component", "avatar", "initials"],
+  "keywords": [
+    "react-component",
+    "avatar",
+    "initials"
+  ],
   "author": "Will Binns-Smith <wbinnssmith@gmail.com>",
   "license": "MIT",
   "devDependencies": {
