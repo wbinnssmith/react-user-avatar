@@ -22,7 +22,7 @@ ReactDOM.render(
     <UserAvatar size="48" name="Will Binns-Smith" />
     <UserAvatar size="48" name="Will Binns-Smith" src="https://pbs.twimg.com/profile_images/429442426038538240/6Ac9kykG_400x400.jpeg" />
     <UserAvatar size="48" name="John Doe" />
-    <UserAvatar size="48" name="Mary Ann Gilligans" />
+    <UserAvatar size="48" name="wbinnssmith@gmail.com" />
     <UserAvatar size="48" name="Jane Doe" color="#FFF" />
     <UserAvatar size="48" name="Madonna" />
   </div>
