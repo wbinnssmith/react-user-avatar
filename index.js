@@ -34,7 +34,8 @@ class UserAvatar extends React.Component {
       colors=defaultColors,
       size,
       style,
-      onClick
+      onClick,
+      className
     } = this.props;
 
     if (!name) throw new Error('UserAvatar requires a name');
@@ -59,7 +60,7 @@ class UserAvatar extends React.Component {
       imageStyle.width = innerStyle.height = size;
     }
 
-    let inner, classes = ['UserAvatar'];
+    let inner, classes = [className, 'UserAvatar'];
     if (src || srcset) {
       inner = <img className="UserAvatar--img" style={imageStyle} src={src} srcset={srcset} alt={name} />
     } else {
