@@ -1,6 +1,6 @@
 {
   "name": "react-user-avatar",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "React component for a user avatar with fallback to colored initials",
   "main": "user-avatar.js",
   "style": "example.css",
