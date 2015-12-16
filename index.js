@@ -57,7 +57,7 @@ class UserAvatar extends React.Component {
 
     if (size) {
       imageStyle.width = innerStyle.width = innerStyle.maxWidth = size;
-      imageStyle.height = innerStyle.height innerStyle.maxHeight == size;
+      imageStyle.height = innerStyle.height = innerStyle.maxHeight == size;
     }
 
     let inner, classes = [className, 'UserAvatar'];
