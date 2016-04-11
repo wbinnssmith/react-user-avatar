@@ -23,8 +23,8 @@
     "babel-preset-react": "^6.3.13",
     "babelify": "^7.2.0",
     "budo": "^7.0.2",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3"
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
   },
   "dependencies": {
     "add-px": "^1.0.0",
@@ -32,7 +32,7 @@
     "initials": "^2.1.5"
   },
   "peerDependencies": {
-    "react": "^0.14.0",
-    "react-dom": "^0.14.0"
+    "react": "^0.14.0 || ^15.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0"
   }
 }
