@@ -49,9 +49,8 @@ class UserAvatar extends React.Component {
     };
 
     const innerStyle = {
-      display: 'table-cell',
+      lineHeight: size,
       textAlign: 'center',
-      verticalAlign: 'middle',
       borderRadius
     };
 
