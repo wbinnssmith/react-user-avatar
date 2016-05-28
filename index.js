@@ -1,6 +1,5 @@
 const React = require('react');
 const initials = require('initials');
-const addPx = require('add-px');
 const contrast = require('contrast');
 
 // from https://flatuicolors.com/
@@ -41,7 +40,6 @@ class UserAvatar extends React.Component {
     if (!name) throw new Error('UserAvatar requires a name');
 
     const abbr = initials(name);
-    size = addPx(size);
 
     const imageStyle = {
       display: 'block',
@@ -61,7 +59,7 @@ class UserAvatar extends React.Component {
 
     let inner, classes = [className, 'UserAvatar'];
     if (src || srcset) {
-      inner = <img className="UserAvatar--img" style={imageStyle} src={src} srcset={srcset} alt={name} />
+      inner = <img className="UserAvatar-img" style={imageStyle} src={src} srcset={srcset} alt={name} />
     } else {
       let background;
       if (color) {
@@ -83,7 +81,7 @@ class UserAvatar extends React.Component {
 
     return (
       <div aria-label={name} className={classes.join(' ')} style={style}>
-        <div className="UserAvatar--inner" style={innerStyle}>
+        <div className="UserAvatar-inner" style={innerStyle}>
           {inner}
         </div>
       </div>

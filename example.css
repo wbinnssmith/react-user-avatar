@@ -3,7 +3,7 @@
   color: white;
 }
 
-.UserAvatar--inner {
+.UserAvatar-inner {
   box-sizing: border-box;
   white-space: nowrap;
   overflow: hidden;
@@ -14,6 +14,6 @@
   color: gray;
 }
 
-.UserAvatar--light .UserAvatar--inner {
+.UserAvatar--light .UserAvatar-inner {
   border: 1px solid lightgray;
 }
