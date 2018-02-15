@@ -27,3 +27,4 @@ build/Release
 node_modules
 user-avatar.js
 user-avatar.js.map
+yarn.lock

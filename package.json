@@ -6,7 +6,7 @@
   "style": "example.css",
   "scripts": {
     "build": "babel index.js -s -o user-avatar.js",
-    "prepublish": "npm run build",
+    "prepublish": "yarn build",
     "test": "budo test.js -- -t babelify"
   },
   "keywords": [
