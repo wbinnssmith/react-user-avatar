@@ -27,5 +27,5 @@ used by passing in an array of `colors`. The component uses a simple calculation
 color for the same user's name every time.
 
 If the component determines that the color chosen was visually light, it will apply a `UserAvatar-light` class to the root element.
-If the colors chosen was dark, it will apply `UserAvatar-light`. Take advantage of these to use the appropriately colored text or border
+If the color chosen was dark, it will apply `UserAvatar-dark`. Take advantage of these to use the appropriately colored text or border
 when styling the component.
