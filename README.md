@@ -26,6 +26,6 @@ The fallback avatar's color may be set by passing in the `color` prop, or you ca
 used by passing in an array of `colors`. The component uses a simple calculation to consistently use the same
 color for the same user's name every time.
 
-If the component determines that the color chosen was visually light, it will apply a `UserAvatar-light` class to the root element.
-If the colors chosen was dark, it will apply `UserAvatar-light`. Take advantage of these to use the appropriately colored text or border
+If the component determines that the color chosen was visually light, it will apply a `UserAvatar--light` class to the root element.
+If the color chosen was dark, it will apply `UserAvatar--dark`. Take advantage of these to use the appropriately colored text or border
 when styling the component.
