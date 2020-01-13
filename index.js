@@ -34,8 +34,8 @@ class UserAvatar extends React.Component {
       colors=defaultColors,
       size,
       style,
-      onClick,
-      className
+      className,
+      ...props
     } = this.props;
 
     if (!name) throw new Error('UserAvatar requires a name');
@@ -82,7 +82,7 @@ class UserAvatar extends React.Component {
     }
 
     return (
-      <div aria-label={name} className={classes.join(' ')} style={style}>
+      <div aria-label={name} className={classes.join(' ')} style={style} {...props}>
         <div className="UserAvatar--inner" style={innerStyle}>
           {inner}
         </div>
